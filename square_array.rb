@@ -2,7 +2,7 @@ arr = [1,2,3,4]
 
 def square_array(array)
   # your code here
-  newArr array.each do |num|
+  newArr = array.each do |num|
     puts num ** 2 
   end
   
