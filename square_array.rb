@@ -4,7 +4,7 @@ def square_array(array)
   # your code here
   newArr = []
   array.each { |num|
-    newArr = num ** 2 
+    newArr.push(num ** 2)
   }
   
   return newArr
